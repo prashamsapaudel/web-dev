@@ -1,3 +1,27 @@
-h1 {
-    colour : red;
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: rgb(14, 0, 0);
+}
+button {
+    background-color: orange;
+}
+a {
+    margin-right: 200px;
+}
+
+#logo {
+    color: orange;
+}
+
+div {
+    padding-top: 20px;
+    font-size: larger;
+    padding-left: 20px;
+    
 }
