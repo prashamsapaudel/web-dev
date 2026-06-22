@@ -59,7 +59,7 @@ body {
     position: absolute;
     bottom: 50px;
     left: 37.85%;
-    animation: wheel 3s linear infinite;
+    animation: wheel 2s linear infinite;
 }
 .wheel1 img {
     width: 98px;
@@ -74,7 +74,7 @@ body {
     position: absolute;
     bottom: 50px;
     left: 60.25%;
-    animation: wheel 3s linear infinite;
+    animation: wheel 2s linear infinite;
 }
 .wheel2 img {
     width: 98px;
