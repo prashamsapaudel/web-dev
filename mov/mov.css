@@ -341,11 +341,14 @@ h1 {
 .poster12 {
     height: 400px;
     width: 400px;
-    background-image: url(tmr.jpg);
+    background-image: url(stwd.jpg);
     border-radius: 20px;
     border-style: solid ;
     border-color: white;
     border-width: 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .info12 {
     height: 360px;
@@ -357,8 +360,14 @@ h1 {
 .poster13 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(spb.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info13 {
     height: 360px;
@@ -370,8 +379,14 @@ h1 {
 .poster14 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(sl.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info14 {
     height: 360px;
@@ -383,8 +398,14 @@ h1 {
 .poster15 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(sd.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info15 {
     height: 360px;
@@ -396,8 +417,14 @@ h1 {
 .poster16 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(st100.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info16 {
     height: 360px;
@@ -409,8 +436,14 @@ h1 {
 .poster17 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(stvd.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info17 {
     height: 360px;
@@ -422,8 +455,14 @@ h1 {
 .poster18 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(sdd.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info18 {
     height: 360px;
@@ -435,8 +474,14 @@ h1 {
 .poster19 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(stna.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info19 {
     height: 360px;
@@ -448,8 +493,14 @@ h1 {
 .poster20 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(sob.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info20 {
     height: 360px;
@@ -461,8 +512,14 @@ h1 {
 .poster21 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(stw.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info21 {
     height: 360px;
@@ -474,8 +531,14 @@ h1 {
 .poster22 {
     height: 400px;
     width: 400px;
-    background-image: url(mazer.jpg);
+    background-image: url(sst.jpg);
     border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid ;
+    border-color: white;
+    border-width: 3px;
 }
 .info22 {
     height: 360px;
@@ -485,3 +548,6 @@ h1 {
     padding: 20px;
 }
 
+.main p {
+    margin-top: 15px;
+}
