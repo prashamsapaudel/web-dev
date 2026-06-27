@@ -14,23 +14,32 @@
     align-items: center;
     overflow: hidden;
 }
-.text {
+.text1 {
     background-color: white;
     height: 100px;
-    width: 900px;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     box-shadow: 800px;
+    border-style: solid ;
+    border-color: rgb(201, 14, 77);
+    border-width: 8px;
 }
-h1 {
+@font-face {
+    font-family: "font1";
+    src: url(font1.ttf);
+}
+.text1 h1 {
     font-size:60px;
     color: rgb(201, 14, 77);
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-family: "font1","sans-serif";
+    font-size: 350%;
 }
 body {
     background-color: rgb(201, 14, 77);
@@ -52,6 +61,9 @@ body {
     display: grid;
     overflow: hidden;
     border-radius: 10px;
+    border-style: solid ;
+    border-color: rgb(255, 255, 255);
+    border-width: 2 px;
 }
 .mov {
     animation: spin 9s infinite linear;
@@ -92,6 +104,9 @@ body {
     display: grid;
     overflow: hidden;
     border-radius: 10px;
+    border-style: solid ;
+    border-color: rgb(255, 255, 255);
+    border-width: 2 px;
 }
 .ser {
     animation: spin 9s infinite linear;
@@ -115,6 +130,66 @@ body {
     margin-top: 10px;
     border-radius: 10px;
 }
+
+
+.info1 , .info2 ,.info3,.info4,.info5,.info6,.info7,.info8,.info9,.info10,.info11 ,.info12 ,.info13,.info14,.info15,.info16,.info17,.info18,.info19,.info20,.info21,.info22 {
+    height: 360px;
+    width: 850px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.bigbox1,.bigbox2,.bigbox3,.bigbox4,.bigbox5,.bigbox6,.bigbox7,.bigbox8,.bigbox9,.bigbox10,.bigbox11,.bigbox12,.bigbox13,.bigbox14,.bigbox15,.bigbox16,.bigbox17,.bigbox18,.bigbox19,.bigbox20,.bigbox21,.bigbox22 {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@font-face {
+    font-family: "myfont";
+    src: url(myfont.otf);
+}
+.info1 p,.info2 p,.info3 p,.info4 p,.info5 p,.info6 p,.info7 p,.info8 p,.info9 p,.info10 p,.info11 p,.info12 p,.info13 p,.info14 p,.info15 p,.info16 p,.info17 p,.info18 p,.info19 p,.info20 p, .info21 p, .info22 p {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(141, 64, 81);
+    font-family: "myfont","sans-serif";
+}
+@font-face {
+    font-family: "font";
+    src: url(font.ttf);
+}
+.sec h1 {
+    font-size:60px;
+    color: rgb(201, 14, 77);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "font","sans-serif";
+    font-size: 280%;
+    margin-top: 5px;
+}
+@font-face {
+    font-family: "font2";
+    src: url(font2.otf);
+}
+.main h1 {
+    font-size:60px;
+    color: rgb(201, 14, 77);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "font2","sans-serif";
+    font-size: 350%;
+    margin-top: 5px;
+}
 .poster1 {
     height: 400px;
     width: 400px;
@@ -124,27 +199,6 @@ body {
     border-color: white;
     border-width: 3px;
 }
-.info1 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
-
-.bigbox1,.bigbox3,.bigbox5,.bigbox7,.bigbox9,.bigbox11,.bigbox13,.bigbox15,.bigbox17,.bigbox19,.bigbox21 {
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.info1 p,.info3 p,.info5 p,.info7 p,.info9 p,.info11 p,.info13 p,.info15 p,.info17 p,.info19 p,.info21 p {
-    text-align: center;
-    font-size: 20px;
-}
-h1 {
-    text-align: center;
-}
 .poster2 {
     height: 400px;
     width: 400px;
@@ -153,25 +207,6 @@ h1 {
     border-style: solid ;
     border-color: white;
     border-width: 3px;
-}
-.info2 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
-.bigbox2,.bigbox4,.bigbox6,.bigbox8,.bigbox10,.bigbox12,.bigbox14,.bigbox16,.bigbox18,.bigbox20,.bigbox22 {
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.info2 p,.info4 p,.info6 p,.info8 p,.info10 p,.info12 p,.info14 p,.info16 p,.info18 p, .info20 p, .info22 p {
-    text-align: center;
-    font-size: 20px;
 }
 .poster3 {
     height: 400px;
@@ -185,13 +220,6 @@ h1 {
     border-width: 3px;
 }
 
-.info3 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
 .poster4 {
     height: 400px;
     width: 400px;
@@ -203,13 +231,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info4 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster5 {
     height: 400px;
     width: 400px;
@@ -221,13 +243,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info5 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster6 {
     height: 400px;
     width: 400px;
@@ -240,13 +256,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info6 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster7 {
     height: 400px;
     width: 400px;
@@ -258,14 +268,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info7 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-    
-}
+
 .poster8 {
     height: 400px;
     width: 400px;
@@ -276,13 +279,6 @@ h1 {
     border-style: solid ;
     border-color: white;
     border-width: 3px;
-}
-.info8 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
 }
 
 .poster9 {
@@ -296,13 +292,8 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info9 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}.poster10 {
+
+.poster10 {
     height: 400px;
     width: 400px;
     background-image: url(20.jpg);
@@ -313,17 +304,11 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info10 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster11 {
     height: 400px;
     width: 400px;
-    background-image: url(Jak.jpg);
+    background-image: url(mdat.jpg);
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,13 +316,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info11 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster12 {
     height: 400px;
     width: 400px;
@@ -350,13 +329,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
 }
-.info12 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster13 {
     height: 400px;
     width: 400px;
@@ -369,13 +342,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info13 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster14 {
     height: 400px;
     width: 400px;
@@ -388,13 +355,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info14 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster15 {
     height: 400px;
     width: 400px;
@@ -407,13 +368,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info15 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster16 {
     height: 400px;
     width: 400px;
@@ -426,13 +381,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info16 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster17 {
     height: 400px;
     width: 400px;
@@ -444,13 +393,6 @@ h1 {
     border-style: solid ;
     border-color: white;
     border-width: 3px;
-}
-.info17 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
 }
 .poster18 {
     height: 400px;
@@ -464,13 +406,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info18 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster19 {
     height: 400px;
     width: 400px;
@@ -483,17 +419,11 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info19 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster20 {
     height: 400px;
     width: 400px;
-    background-image: url(sob.jpg);
+    background-image: url(obx.jpg);
     border-radius: 20px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -502,13 +432,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info20 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster21 {
     height: 400px;
     width: 400px;
@@ -521,13 +445,7 @@ h1 {
     border-color: white;
     border-width: 3px;
 }
-.info21 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
-}
+
 .poster22 {
     height: 400px;
     width: 400px;
@@ -539,13 +457,6 @@ h1 {
     border-style: solid ;
     border-color: white;
     border-width: 3px;
-}
-.info22 {
-    height: 360px;
-    width: 850px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 20px;
 }
 
 .main p {
