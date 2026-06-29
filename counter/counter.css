@@ -1,0 +1,14 @@
+.box {
+    height:200px ;
+    width:290px ;
+    background-color:rgb(249, 186, 255) ;
+    border-radius: 20px;
+    text-align: center;
+}
+.zero {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(129, 74, 180);
+}
